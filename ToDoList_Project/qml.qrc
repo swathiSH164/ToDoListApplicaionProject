@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>HomeScreen.qml</file>
+        <file>Image/add.png</file>
+        <file>AddTask.qml</file>
+        <file>MyButton.qml</file>
+        <file>MyTextField.qml</file>
+        <file>Image/calendar.png</file>
+        <file>Image/purplecolor.jpg</file>
+        <file>Image/todolist.jpg</file>
+        <file>Calendar.qml</file>
+        <file>Tasklist.qml</file>
+        <file>Notification.qml</file>
+        <file>Image/clock-alarm-8761.mp3</file>
+        <file>Image/images.jpg</file>
+        <file>Image/istockphoto.jpg</file>
+        <file>Themes/Screenshot (27).png</file>
+        <file>Themes/test.qml</file>
+        <file>Themes/qmldir</file>
+        <file>Image/completetask.jpg</file>
+    </qresource>
+</RCC>
