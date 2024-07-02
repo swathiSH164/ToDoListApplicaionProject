@@ -1,12 +1,15 @@
 QT += quick
 QT+=sql
-CONFIG += c++11
+CONFIG += c++17
+INCLUDEPATH += /home/pthinks1/Qt/5.15.2/gcc_64/include
+LIBS +=-L/home/pthinks1/Documents/Swathi/TODOListApplication/googletest-main/build/lib/ -lgtest -lgtest_main -lgmock -lgmock_main
 
 # The following define makes your compiler emit warnings if you use
 # any Qt feature that has been marked deprecated (the exact warnings
 # depend on your compiler). Refer to the documentation for the
 # deprecated API to know how to port your code away from it.
 DEFINES += QT_DEPRECATED_WARNINGS
+
 
 # You can also make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
@@ -18,6 +21,7 @@ SOURCES += \
     TaskManagement.cpp \
     TaskManager.cpp \
     TaskModelList.cpp \
+    Tests/TestContact.cpp \
         main.cpp \
     TaskModel.cpp \
     DBManager.cpp \
@@ -45,8 +49,10 @@ HEADERS += \
     TaskModel.h \
     DBManager.h \
     TaskModelList.h \
+    Tests/TestContact.h \
     sqlite-amalgamation-3440000/sqlite3.h \
-    Task.h
+    Task.h \
+    sqlite-amalgamation-3440000/sqlite3ext.h
 
 DISTFILES += \
     task.db

@@ -24,6 +24,7 @@ public:
     QString status() const;
     void setStatus(const QString &newStatus);
 
+    int add(int a, int b);
 signals:
 public slots:
 

@@ -16,6 +16,7 @@ Window
 
     Loader{
         id:loader
+
         anchors.fill: parent
 
         source: "qrc:/HomeScreen.qml"
@@ -23,6 +24,7 @@ Window
 
     Connections{
         target: loader.item
+         ignoreUnknownSignals: true
         onMyclick:{
              print();
             loader.source="qrc:/AddTask.qml"

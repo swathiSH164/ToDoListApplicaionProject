@@ -43,6 +43,13 @@ int Task::id() const
     return m_id;
 }
 
+int Task::add(int a ,int b)
+{
+    return a+b;
+}
+
+
+
 void Task::setId(int newId)
 {
     m_id = newId;
